@@ -10,7 +10,7 @@ from flask_session import Session
 from helpers import login_required
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://ydfzhnmcrkhqst:40e567ccdb90914cb9be97f2d49a496c3ea51614d362aa31d8dab718ff628f79@ec2-3-229-161-70.compute-1.amazonaws.com:5432/dbgmu030f2thon'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://oehjjztltpcisg:ca0f60dccfe6f7c119b326f215f6916aed170619a366e4c6e3d0d462cd1a01f2@ec2-18-215-96-22.compute-1.amazonaws.com:5432/d737r4q63ecn3dgit'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db_init(app)
 
