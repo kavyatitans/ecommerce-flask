@@ -125,5 +125,4 @@ def edit(pro_id):
 		return render_template("home.html", rows=rows, message="Product edited")
 	return render_template("edit.html", result=result)
 
-if __name__ == "__main__":
-    app.run(debug=True)
+
